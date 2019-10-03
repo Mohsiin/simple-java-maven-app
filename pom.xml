@@ -8,12 +8,19 @@
   <name>my-app</name>
   <url>http://maven.apache.org</url>
   
-  <distributionManagement>
-   <snapshotRepository>
-      <id>nexus-snapshots</id>
-      <url>http://127.0.0.1:8081/repository/simple-java-maven-app</url>
-   </snapshotRepository>
-</distributionManagement>
+ <distributionManagement>
+    <repository>
+      <id>release-nexus</id>  
+      <name>Maven Repository Switchboard</name>  
+      <url>http://127.0.0.1:8081/repository/maven-releases/</url> 
+    </repository>
+
+    <snapshotRepository>
+      <id>snapshots-nexus</id>  
+      <name>Maven Repository Switchboard</name>  
+      <url>http://127.0.0.1:8081/repository/maven-snapshots/</url>  
+    </snapshotRepository>
+  </distributionManagement>
   
   <dependencies>
     <dependency>
