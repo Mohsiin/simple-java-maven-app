@@ -10,20 +10,20 @@
   <repositories>
     <repository>
       <id>maven-group</id>
-      <url>http://127.0.0.1:8081/repository/maven-group/</url>
+      <url>http://172.17.0.3:8081/repository/maven-group/</url>
     </repository>
   </repositories>
  <distributionManagement>
     <repository>
       <id>nexus-releases</id>  
       <name>Maven Repository Releases</name>  
-      <url>http://127.0.0.1:8081/repository/maven-releases/</url> 
+      <url>http://172.17.0.3:8081/repository/maven-releases/</url> 
     </repository>
 
     <snapshotRepository>
       <id>nexus-snapshots</id>  
       <name>Maven Repository Snapshots</name>  
-      <url>http://127.0.0.1:8081/repository/maven-snapshots/</url>  
+      <url>http://172.17.0.3:8081/repository/maven-snapshots/</url>  
     </snapshotRepository>
   </distributionManagement>
   
