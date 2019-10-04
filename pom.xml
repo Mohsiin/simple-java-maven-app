@@ -28,6 +28,7 @@
       <url>http://172.17.0.3:8081/repository/maven-snapshots/</url>  
     </snapshotRepository>
   </distributionManagement>
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
