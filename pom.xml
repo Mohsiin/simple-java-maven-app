@@ -29,11 +29,11 @@
     </snapshotRepository>
   </distributionManagement>
   
-  <scm>
-		<url>https://github.com/Mohsiin/simple-java-maven-app</url>
-		<connection>scm:git:git://github.com/Mohsiin/simple-java-maven-app.git</connection>
-		<tag>HEAD</tag>
-	</scm>
+<scm>    
+  <connection>scm:git:http://mohsiin:MohSin2019$@github.com/Mohsiin/simple-java-maven-app.git</connection>
+  <url>https://github.com/Mohsiin/simple-java-maven-app.git</url>
+  <tag>HEAD</tag>
+ </scm>
   
   <dependencies>
     <dependency>
