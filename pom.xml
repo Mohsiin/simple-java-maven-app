@@ -31,7 +31,7 @@
   
 <scm>
     <connection>scm:git:https://github.com/Mohsiin/simple-java-maven-app.git</connection>
-    <developerConnection>scm:git:https://github.com/Mohsiin/simple-java-maven-app.git</developerConnection>
+    <developerConnection>scm:git:https://mohsiin@github.com/Mohsiin/simple-java-maven-app.git</developerConnection>
     <url>https://github.com/Mohsiin/simple-java-maven-app</url>
     <tag>master</tag>
 </scm>
