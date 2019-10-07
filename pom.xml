@@ -32,7 +32,7 @@
   <scm>
 		<url>https://github.com/Mohsiin/simple-java-maven-app</url>
 		<connection>scm:git:git://github.com/Mohsiin/simple-java-maven-app.git</connection>
-		<developerConnection>scm:git:git@github.com:Mohsiin/simple-java-maven-app.git</developerConnection>
+		<tag>HEAD</tag>
 	</scm>
   
   <dependencies>
