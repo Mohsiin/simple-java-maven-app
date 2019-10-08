@@ -28,7 +28,7 @@
     </snapshotRepository>
   </distributionManagement>
   <scm>
-   <connection>scm:git:git://github.com/Mohsiin/simple-java-maven-app.git</connection>
+   <connection>scm:git:https://github.com/Mohsiin/simple-java-maven-app.git</connection>
    <developerConnection>scm:git:git@github.com:Mohsiin/simple-java-maven-app.git</developerConnection>
    <url>https://github.com/Mohsiin/simple-java-maven-app</url>
 </scm>
