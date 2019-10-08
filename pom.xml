@@ -27,13 +27,12 @@
       <url>http://172.17.0.3:8081/repository/maven-snapshots/</url>  
     </snapshotRepository>
   </distributionManagement>
-  
-<scm>
-    <connection>scm:git:https://github.com/Mohsiin/simple-java-maven-app.git</connection>
-    <developerConnection>scm:git:https://mohsiin:MohSin2019$@github.com/Mohsiin/simple-java-maven-app.git</developerConnection>
-    <url>https://github.com/Mohsiin/simple-java-maven-app</url>
-  <tag>HEAD</tag>
-  </scm>
+  <scm>
+   <connection>scm:git:git://github.com/Mohsiin/simple-java-maven-app.git</connection>
+   <developerConnection>scm:git:git@github.com:Mohsiin/simple-java-maven-app.git</developerConnection>
+   <url>https://github.com/Mohsiin/simple-java-maven-app</url>
+</scm>
+
   
   <dependencies>
     <dependency>
